@@ -20,7 +20,7 @@ def format_phone_column_as_text(excel_file, sheet_name, column_letter):
     except Exception as e:
         print(f"Couldn't format the column of phone numbers: {e}")
 
-# Read the names and numbers of contacts from the Excel Sheet
+# Read names n numbers of contacts from the Excel
 def get_contacts_from_excel(excel_file, sheet_name):
     contacts = []
     try:
